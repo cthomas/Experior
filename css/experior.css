@@ -1,0 +1,231 @@
+body
+{
+	margin: 0;
+	background-color: #858585;
+	background-image: url('../img/vert_stripe.png');
+	background-repeat: repeat-x;
+}
+
+input
+{
+	text-align: center;
+}
+
+#content
+{
+	top: 0;
+	padding: 0;
+}
+
+#header
+{
+	margin-bottom: 1em;
+	clear: both;
+	height: 80px;
+}
+
+#logo
+{
+	color: #FFFFFF;
+	font-size: 3em;
+	padding: 0.2em;
+	float: left;
+}
+
+#logo a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#logo a:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#nav
+{
+	color: #FFFFFF;
+	font-size: 2.5em;
+	text-decoration: none;
+	float: right;
+	padding: 0.2em;
+	height: 4em;
+	width: 50%;
+	right: 50%;
+	vertical-align: bottom;
+}
+
+#nav a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 4em;
+}
+
+#nav a:hover
+{
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+
+#content_wrapper
+{
+	width: 98%;
+	margin-left: 1em;
+	margin-right: 1em;
+	clear: both;
+}
+
+#editor
+{
+	height: 90%;
+	width: 50%;
+	left: 48%;
+	background-color: #9f9f9f;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	border: 0.25em solid #474747;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	float: left;
+}
+
+#problem
+{
+	border: 0.25em solid #474747;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	width: 47%;
+	right: 51%;
+	height: 50%;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+#problem h1
+{
+	padding: 0.2em;
+	margin-bottom: 0;
+}
+
+#problem h2
+{
+	padding: 0.2em;
+	margin-bottom: 0;
+}
+
+#problem hr
+{
+	border: 0.1em dotted #C0C0C0;
+}
+
+#test_container
+{
+	clear: both;
+	margin: auto;
+	display: table;
+	border-collapse: collapse;
+}
+
+#add_custom
+{
+	clear: both;
+	margin: auto;
+	width: 50%;
+}
+
+#test_cases
+{
+	border: 0.15em solid #C0C0C0;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+#test_cases th
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.1em;
+	text-align: center;
+	border: 0.15em solid #C0C0C0;
+}
+
+#test_cases td
+{
+	font-size: 1.2em;
+	border: 0.15em solid #C0C0C0;
+	text-align: center;
+}
+
+#inc
+{
+	background: url('../img/inc_dec.png') no-repeat center center;
+	background-position: 0 0;
+	text-align: center;
+	height: 50px;
+}
+
+.description
+{
+	font-size: 1.5em;
+	padding: 0.2em;
+}
+
+.title
+{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.test_header
+{
+	border: 0.15em solid #C0C0C0;
+	font-weight: bold;
+	padding: 0.1em;
+	font-size: 1.2em;
+	display: table-cell;
+	text-align: center;
+}
+
+.test_case
+{
+	left: 50%;
+	clear: both;
+	display: table-row;
+}
+
+.test_value
+{
+	font-size: 1.2em;
+	padding: 0.1em;
+	border: 0.15em solid #C0C0C0;
+	display: table-cell;
+	text-align: center;
+}
+
+.test_action
+{
+	font-size: 1.2em;
+	padding: 0.1em;
+	border: none;
+	text-align: center;
+}
+
+a.test_action
+{
+	color: #000000;
+}
+
+a.test_action:visited
+{
+	color: #000000;
+}
+
+a.test_action:hover
+{
+	color: #980000;
+}
+
