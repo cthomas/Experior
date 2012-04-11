@@ -19,15 +19,27 @@
 				case_input.setAttribute('class', 'test_value');
 				case_input.innerHTML = input_case;
 				case_div.appendChild(case_input);
+
 				case_input = document.createElement('div');
 				case_input.setAttribute('class', 'test_value');
 				case_input.innerHTML = '?';
 				case_div.appendChild(case_input);
+
 				case_input = document.createElement('div');
 				case_input.setAttribute('class', 'test_value');
 				case_input.innerHTML = '?';
 				case_div.appendChild(case_input);
+
+				case_input = document.createElement('div');
+				case_input.innerHTML = '<a class="test_action" href="#">remove</a>';
+				case_div.appendChild(case_input);
+
 				cases.appendChild(case_div);
+
+				var input = document.getElementById('custom_input');
+				if(input) {
+					input.value = '';
+				}
 			}
 		}
 	}
@@ -68,16 +80,10 @@
 					<div class="test_value">racecar</div>
 					<div class="test_value">?</div>
 				</div>
-				<div class="test_case">
-					<div class="test_value">racecar</div>
-					<div class="test_value">racecar</div>
-					<div class="test_value">?</div>
-					<div><a class="test_action" href="#">remove</a></div>
-				</div>
 			</div>
 			<div id="add_custom">
 				<form method="post" action="">
-					<input type="text" name="custom_case"/>
+					<input id="custom_input" type="text" name="custom_case"/>
 					<button type="button" onClick="addCase(this.form)">Add Test Case</button>
 				</form>
 			</div>
